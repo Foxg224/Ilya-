@@ -1,0 +1,8 @@
+<script type="text/javascript">
+function modify() {
+         var newElem = document.createElement("p");
+         newElem.id = "newP";
+         var newText = document.createTextNode("Это новый абзац.");
+         newElem.appendChild(newText);
+         document.getElementById("nodes").appendChild(newElem);
+         document.getElementById("em1").childNodes[0].nodeValue =
